@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #393E41;
+}
+
+body {
+  background-color: #e6e3F0;
+}
+
+nav {
+  background-color: #d6d3f0;
 }
 
 html{
@@ -43,10 +52,10 @@ section nav ul li{
 
 section nav ul li a{
     text-decoration: none;
-    color: #000;
     font-weight: 500;
     font-size: 17px;
     transition: 0.1s;
+    color: #393E41;
 }
 
 section nav ul li a::after{
@@ -68,7 +77,7 @@ section nav ul li a:hover{
 
 section nav .icon i{
     font-size: 18px;
-    color: #000;
+    color: #393E41;
     margin: 0 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -290,9 +299,9 @@ section .main_btn:hover i{
     align-items: center;
     justify-content: center;
     line-height: 50px;
-    color: #000;
+    color: #393E41;
     cursor: pointer;
-    text-shadow: 0 0 6px #000;
+    text-shadow: 0 0 6px #393E41;
     transition: 0.2s;
 }
 
@@ -331,10 +340,12 @@ section .main_btn:hover i{
     justify-content: center;
     text-decoration: none;
     color: white;
-    background: #000;
+    background: #393E41;
     padding: 8px 10px;
     margin: 0 80px;
     transition: 0.3s;
+
+      border-radius: 20px;
 }
 
 
@@ -381,7 +392,7 @@ section .main_btn:hover i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: #393E41;
 }
 
 .gallary .gallary_image_box .gallary_image img{
@@ -427,7 +438,7 @@ section .main_btn:hover i{
 .gallary .gallary_image_box .gallary_image .gallary_btn{
     position: absolute;
     margin-top: 180px;
-    color: #000;
+    color: #393E41;
     background: #fac031;
     padding: 7px 25px;
     text-decoration: none;
@@ -516,7 +527,7 @@ section .main_btn:hover i{
 }
 
 .review .review_box .review_card .review_text .name{
-    color: #000;
+    color: #393E41;
     transition: 0.3s;
 }
 
@@ -573,7 +584,7 @@ section .main_btn:hover i{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: #393E41;
     font-size: 55px;
 }
 
@@ -775,7 +786,7 @@ footer .footer_main .footer_tag{
 }
 
 footer .footer_main .footer_tag h2{
-    color: #000;
+    color: #393E41;
     margin-bottom: 25px;
     font-size: 30px;
 }
